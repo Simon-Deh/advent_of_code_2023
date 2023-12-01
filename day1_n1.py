@@ -1,3 +1,5 @@
+import sys
+
 for word in sys.stdin:
     first_digit = 0
     last_digit = 0
@@ -18,6 +20,6 @@ for word in sys.stdin:
 
     number_to_add = int(number)
     sum_of_numbers = sum_of_numbers + number_to_add
-    print("sum=", sum_of_numbers)
+    print("sum =", sum_of_numbers)
     print()
   
